@@ -19,7 +19,7 @@
     @apply text-3xl md:text-4xl lg:text-6xl text-gray font-leagueGothic;
   };
   h5{
-    @apply text-3xl md:text-lg lg:text-2xl text-gray font-leagueGothic;
+    @apply text-xs md:text-lg lg:text-xl text-gray font-dmSans;
   };
   p{
     @apply text-xs md:text-sm lg:text-xl text-justify text-gray font-dmSans;
