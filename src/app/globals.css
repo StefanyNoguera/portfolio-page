@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Gothic&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1{
+    @apply text-6xl md:text-8xl lg:text-9xl text-gray font-leagueGothic;
+  };
+  h2{
+    @apply text-4xl md:text-7xl lg:text-6xl text-gray font-leagueGothic;
+  };
+  h3{
+    @apply text-3xl md:text-5xl lg:text-6xl text-gray font-leagueGothic;
+  };
+  h4{
+    @apply text-3xl md:text-4xl lg:text-6xl text-gray font-leagueGothic;
+  };
+  h5{
+    @apply text-3xl md:text-lg lg:text-2xl text-gray font-leagueGothic;
+  };
+  p{
+    @apply text-xs md:text-sm lg:text-xl text-justify text-gray font-dmSans;
+  };
+}
