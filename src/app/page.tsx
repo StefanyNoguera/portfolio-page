@@ -1,14 +1,12 @@
 'use client'
 import Image from 'next/image'
-import {Link} from 'react-scroll'
-import { FullPage, Slide } from 'react-full-page';
+import { Link } from 'react-scroll'
 
 export default function Home() {
   return (
     <main>
-      <FullPage>
-        <Slide>
-        <div className="bg-beige h-screen">
+      <div className='snap-y snap-mandatory h-screen w-screen overflow-y-scroll'>
+        <div className="snap-start bg-beige h-screen">
           <div className='flex justify-between pl-3 pr-3'>
             <div className='relative h-14 w-14 md:h-16 md:w-16'>
               <Image
@@ -34,32 +32,23 @@ export default function Home() {
             </div>
           </div>
         </div>
-        </Slide>
 
-        <Slide>
-        <div className="bg-gray h-screen" id='about'>
+        <div className="snap-start bg-gray h-screen" id='about'>
 
         </div>
-        </Slide>
 
-        <Slide>
-        <div className="bg-beige h-screen" id='services'>
+        <div className="snap-start bg-beige h-screen" id='services'>
 
         </div>
-        </Slide>
 
-        <Slide>
-        <div className="bg-gray h-screen" id='my-work'>
+        <div className="snap-start bg-gray h-screen" id='my-work'>
 
         </div>
-        </Slide>
 
-        <Slide>
-        <div className="bg-beige h-screen" id='contact'>
+        <div className="snap-start bg-beige h-screen" id='contact'>
 
         </div>
-        </Slide>
-      </FullPage>
+      </div>
     </main>
   );
 }
