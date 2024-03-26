@@ -16,7 +16,7 @@
     @apply text-3xl md:text-5xl lg:text-6xl text-gray font-leagueGothic;
   };
   h4{
-    @apply text-3xl md:text-4xl lg:text-6xl text-gray font-leagueGothic;
+    @apply text-3xl md:text-4xl lg:text-5xl text-gray font-leagueGothic;
   };
   h5{
     @apply text-xs md:text-lg lg:text-xl text-gray font-dmSans;

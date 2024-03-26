@@ -59,6 +59,11 @@ export default function Home() {
               </h5>
             </div>
           </div>
+          <div className='pl-9 pt-48 md:pl-24 md:pt-36 lg:pt-32'>
+            <h4 className='leading-none'>STEFANY NOGUERA</h4>
+            <h1 className='h-24 md:h-36 lg:h-48 leading-none'>web developer<br /> & designer</h1>
+            {/* <h1>& designer</h1> */}
+          </div>
         </div>
 
         <div className="snap-start bg-gray h-screen" id='about'>
