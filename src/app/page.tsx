@@ -62,18 +62,20 @@ export default function Home() {
           <div className='pl-9 pt-48 md:pl-24 md:pt-36 lg:pt-32'>
             <h4 className='leading-none'>STEFANY NOGUERA</h4>
             <h1 className='h-24 md:h-36 lg:h-48 leading-none'>web developer<br /> & designer</h1>
-            {/* <h1>& designer</h1> */}
           </div>
         </div>
 
         <div className="snap-start bg-gray h-screen text-beige" id='about'>
-          <h4 className='text-beige'>about me</h4>
-          <p className='text-beige'>
-            Hey there! I'm Stefany, a Venezuelan currently studying Computer Science at Goldsmiths, University of London.
-            Earlier in 2023, I had an amazing experience at Le Wagon Bali, where I dived into the world of web development.
-            Now, I'm thrilled to offer my skills as a website designer and developer.
-            Whether you're a small business owner or a startup entrepreneur, I'm here to help you create an online presence that shines. I love turning ideas into visually stunning and user-friendly websites. Let's work together to bring your vision to life!
-          </p>
+          <div className='p-16 lg:pl-32 md:pl-28 md:w-3/5 pt-28 lg:pt-20'>
+            <h4 className='text-beige leading-loose'>about me</h4>
+            <p className='text-beige'>
+              Hey there! I'm Stefany, a Venezuelan currently studying Computer Science at Goldsmiths, University of London.
+              Earlier in 2023, I had an amazing experience at Le Wagon Bali, where I dived into the world of web development.
+              Now, I'm thrilled to offer my skills as a website designer and developer.
+              Whether you're a small business owner or a startup entrepreneur, I'm here to help you create an online presence that shines.<br /><br />
+              I love turning ideas into visually stunning and user-friendly websites. Let's work together to bring your vision to life!
+            </p>
+          </div>
         </div>
 
         <div className="snap-start bg-beige h-screen" id='services'>
