@@ -73,7 +73,13 @@ export default function Home() {
         </div>
 
         <div className="snap-start bg-beige h-screen" id='contact'>
-
+          <h1>contact me</h1>
+          <p>email:</p>
+          <p>stefanynoguerar@gmail.com</p>
+          <p>linkedin:</p>
+          <p>linkedin.com/in/stefanynoguera/</p>
+          <p>github:</p>
+          <p>github.com/StefanyNoguera</p>
         </div>
       </div>
     </main>
