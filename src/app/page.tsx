@@ -1,8 +1,35 @@
 'use client'
 import Image from 'next/image'
-import { Link } from 'react-scroll'
 
 export default function Home() {
+  const handleClickAbout = () => {
+    const element = document.getElementById('about');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleClickServices = () => {
+    const element = document.getElementById('services');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleClickWork = () => {
+    const element = document.getElementById('my-work');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleClickContact = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <main>
       <div className='snap-y snap-mandatory h-screen w-screen overflow-y-scroll'>
@@ -17,17 +44,17 @@ export default function Home() {
               />
             </div>
             <div className='flex items-center'>
-              <h5 className='p-4' style={{ cursor: 'pointer' }}>
-                <Link to="about" spy={true} smooth={true} duration={800} onClick={() => {}}>about</Link>
+              <h5 className='p-4'>
+                <button onClick={handleClickAbout}>about</button>
               </h5>
-              <h5 className='p-4' style={{ cursor: 'pointer' }}>
-                <Link to="services" spy={true} smooth={true} duration={800} onClick={() => {}}>services</Link>
+              <h5 className='p-4'>
+                <button onClick={handleClickServices}>services</button>
               </h5>
-              <h5 className='p-4' style={{ cursor: 'pointer' }}>
-                <Link to="my-work" spy={true} smooth={true} duration={800} onClick={() => {}}>my work</Link>
+              <h5 className='p-4'>
+                <button onClick={handleClickWork}>my work</button>
               </h5>
-              <h5 className='p-4' style={{ cursor: 'pointer' }}>
-                <Link to="contact" spy={true} smooth={true} duration={800} onClick={() => {}}>contact</Link>
+              <h5 className='p-4'>
+                <button onClick={handleClickContact}>contact</button>
               </h5>
             </div>
           </div>
