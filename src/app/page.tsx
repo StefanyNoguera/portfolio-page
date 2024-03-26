@@ -73,13 +73,21 @@ export default function Home() {
         </div>
 
         <div className="snap-start bg-beige h-screen" id='contact'>
-          <h1>contact me</h1>
-          <p>email:</p>
-          <p>stefanynoguerar@gmail.com</p>
-          <p>linkedin:</p>
-          <p>linkedin.com/in/stefanynoguera/</p>
-          <p>github:</p>
-          <p>github.com/StefanyNoguera</p>
+          <div className='pl-16 pt-48 lg:pt-14 lg:pl-32 md:pl-28 md:pt-36'>
+            <h2 className='pb-5 md:pb-0'>contact me</h2>
+            <div className='py-4 md:py-3'>
+              <p className='font-medium'>email:</p>
+              <p>stefanynoguerar@gmail.com</p>
+            </div>
+            <div className='py-4 md:py-3'>
+              <p className='font-medium'>linkedin:</p>
+              <p>linkedin.com/in/stefanynoguera/</p>
+            </div>
+            <div className='py-4 md:py-3'>
+              <p className='font-medium'>github:</p>
+              <p>github.com/StefanyNoguera</p>
+            </div>
+          </div>
         </div>
       </div>
     </main>

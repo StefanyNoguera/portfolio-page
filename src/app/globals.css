@@ -10,7 +10,7 @@
     @apply text-6xl md:text-8xl lg:text-9xl text-gray font-leagueGothic;
   };
   h2{
-    @apply text-4xl md:text-7xl lg:text-6xl text-gray font-leagueGothic;
+    @apply text-5xl md:text-7xl lg:text-9xl text-gray font-leagueGothic;
   };
   h3{
     @apply text-3xl md:text-5xl lg:text-6xl text-gray font-leagueGothic;
