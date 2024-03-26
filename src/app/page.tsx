@@ -66,8 +66,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="snap-start bg-gray h-screen" id='about'>
-
+        <div className="snap-start bg-gray h-screen text-beige" id='about'>
+          <h4 className='text-beige'>about me</h4>
+          <p className='text-beige'>
+            Hey there! I'm Stefany, a Venezuelan currently studying Computer Science at Goldsmiths, University of London.
+            Earlier in 2023, I had an amazing experience at Le Wagon Bali, where I dived into the world of web development.
+            Now, I'm thrilled to offer my skills as a website designer and developer.
+            Whether you're a small business owner or a startup entrepreneur, I'm here to help you create an online presence that shines. I love turning ideas into visually stunning and user-friendly websites. Let's work together to bring your vision to life!
+          </p>
         </div>
 
         <div className="snap-start bg-beige h-screen" id='services'>
