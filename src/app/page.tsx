@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   const handleClickAbout = () => {
@@ -81,11 +82,15 @@ export default function Home() {
             </div>
             <div className='py-4 md:py-3'>
               <p className='font-medium'>linkedin:</p>
-              <p>linkedin.com/in/stefanynoguera/</p>
+              <Link href="https://www.linkedin.com/in/stefanynoguera/" target="_blank" rel="noopener noreferrer">
+                <p>linkedin.com/in/stefanynoguera/</p>
+              </Link>
             </div>
             <div className='py-4 md:py-3'>
               <p className='font-medium'>github:</p>
-              <p>github.com/StefanyNoguera</p>
+              <Link href="https://github.com/StefanyNoguera" target="_blank" rel="noopener noreferrer">
+                <p>github.com/StefanyNoguera</p>
+              </Link>
             </div>
           </div>
         </div>
