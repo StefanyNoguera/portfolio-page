@@ -79,13 +79,15 @@ export default function Home() {
         </div>
 
         <div className="snap-start bg-beige h-screen" id='services'>
-          <h2 className=''>i can help you with</h2>
-          <h4>web development</h4>
-          <p>Crafting dynamic websites and web applications tailored to your needs,
-            using cutting-edge technologies for optimal performance and user experience.</p>
-          <h4>web design</h4>
-          <p>Creating visually stunning and user-friendly interfaces that make a lasting impression,
-            focusing on every detail to ensure an exceptional online presence.</p>
+          <h2 className='pl-16 pb-10 md:pb-0 pt-10 md:pt-0 md:pl-24'>i can help you with</h2>
+          <div className='px-16 lg:pl-32 md:pl-28 md:w-4/6'>
+            <h4>web development</h4>
+            <p className='pb-9'>Crafting dynamic websites and web applications tailored to your needs,
+              using cutting-edge technologies for optimal performance and user experience.</p>
+            <h4>web design</h4>
+            <p>Creating visually stunning and user-friendly interfaces that make a lasting impression,
+              focusing on every detail to ensure an exceptional online presence.</p>
+          </div>
         </div>
 
         <div className="snap-start bg-gray h-screen" id='my-work'>
