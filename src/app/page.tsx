@@ -78,8 +78,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="snap-start bg-beige h-screen" id='services'>
-          <h2 className='pl-16 pb-10 md:pb-0 pt-10 md:pt-0 md:pl-24'>i can help you with</h2>
+        <div className="snap-start md:bg-[radial-gradient(ellipse_70%_80%_at_bottom_right,_var(--tw-gradient-stops))] bg-[radial-gradient(ellipse_100%_40%_at_bottom,_var(--tw-gradient-stops))] from-pink to-beige h-screen" id='services'>
+          <h2 className='pl-10  pb-10 pt-16 md:pb-0 md:pt-0 md:pl-24'>i can help you with</h2>
           <div className='px-16 lg:pl-32 md:pl-28 md:w-4/6'>
             <h4>web development</h4>
             <p className='pb-9'>Crafting dynamic websites and web applications tailored to your needs,
