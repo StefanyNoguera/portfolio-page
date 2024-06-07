@@ -7,6 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // backgroundImage: {
+    //   'gradient-radial': 'radial-gradient(circle at top, var(--tw-gradient-stops))',
+    // },
+
     colors: {
       'gray' : "#2F2F2E",
       'beige' : "#E4E1D8",

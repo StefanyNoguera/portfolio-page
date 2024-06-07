@@ -34,11 +34,11 @@ export default function Home() {
   return (
     <main>
       <div className='snap-y snap-mandatory h-screen w-screen overflow-y-scroll'>
-        <div className="snap-start bg-beige h-screen">
+        <div className="snap-start h-screen md:bg-[radial-gradient(ellipse_90%_50%_at_top,_var(--tw-gradient-stops))] bg-[radial-gradient(ellipse_130%_50%_at_top,_var(--tw-gradient-stops))] from-pink to-beige">
           <div className='flex justify-between pl-3 pr-3'>
             <div className='relative h-14 w-14 md:h-16 md:w-16'>
               <Image
-                src="/logo-gray.png"
+                src="/logo-beige.png"
                 layout="fill"
                 objectFit="cover"
                 alt="Logo"
@@ -46,21 +46,21 @@ export default function Home() {
             </div>
             <div className='flex items-center'>
               <h5 className='p-4'>
-                <button onClick={handleClickAbout}>about</button>
+                <button onClick={handleClickAbout} className='text-beige'>about</button>
               </h5>
               <h5 className='p-4'>
-                <button onClick={handleClickServices}>services</button>
+                <button onClick={handleClickServices} className='text-beige'>services</button>
               </h5>
               <h5 className='p-4'>
-                <button onClick={handleClickWork}>my work</button>
+                <button onClick={handleClickWork} className='text-beige'>my work</button>
               </h5>
               <h5 className='p-4'>
-                <button onClick={handleClickContact}>contact</button>
+                <button onClick={handleClickContact} className='text-beige'>contact</button>
               </h5>
             </div>
           </div>
           <div className='pl-9 pt-48 md:pl-24 md:pt-36 lg:pt-32'>
-            <h4 className='leading-none'>STEFANY NOGUERA</h4>
+            <h4 className='leading-none text-beige'>STEFANY NOGUERA</h4>
             <h1 className='h-24 md:h-36 lg:h-48 leading-none'>web developer<br /> & designer</h1>
           </div>
         </div>
