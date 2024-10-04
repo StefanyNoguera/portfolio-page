@@ -49,19 +49,22 @@ export default function Home() {
                 <button onClick={handleClickAbout} className='text-beige'>about</button>
               </h5>
               <h5 className='p-4'>
-                <button onClick={handleClickServices} className='text-beige'>services</button>
+                <button onClick={handleClickServices} className='text-beige'>skills</button>
               </h5>
               <h5 className='p-4'>
-                <button onClick={handleClickWork} className='text-beige'>my work</button>
+                <button onClick={handleClickWork} className='text-beige'>projects</button>
               </h5>
               <h5 className='p-4'>
                 <button onClick={handleClickContact} className='text-beige'>contact</button>
+              </h5>
+              <h5 className='p-4'>
+                <button className='text-beige'>resume</button>
               </h5>
             </div>
           </div>
           <div className='pl-9 pt-48 md:pl-24 md:pt-36 lg:pt-32'>
             <h4 className='leading-none text-beige'>STEFANY NOGUERA</h4>
-            <h1 className='h-24 md:h-36 lg:h-48 leading-none'>web developer<br /> & designer</h1>
+            <h1 className='h-24 md:h-36 lg:h-48 leading-none'>computer science<br /> student</h1>
           </div>
         </div>
 
@@ -69,17 +72,14 @@ export default function Home() {
           <div className='p-16 lg:pl-32 md:pl-28 md:w-3/5 pt-28 lg:pt-20'>
             <h4 className='text-beige leading-loose'>about me</h4>
             <p className='text-beige'>
-              Hey there! I'm Stefany, a Venezuelan currently studying Computer Science at Goldsmiths, University of London.
-              Earlier in 2023, I had an amazing experience at Le Wagon Bali, where I dived into the world of web development.
-              Now, I'm thrilled to offer my skills as a website designer and developer.
-              Whether you're a small business owner or a startup entrepreneur, I'm here to help you create an online presence that shines.<br /><br />
-              I love turning ideas into visually stunning and user-friendly websites. Let's work together to bring your vision to life!
+            I am a dedicated Computer Science student at Goldsmiths, University of London, with a strong focus on web development and scalable solutions. Proficient in Ruby on Rails, Next.js and Python. <br /> I have developed user-centric applications through both academic projects and a Web Development Bootcamp at Le Wagon. <br />
+            My experience includes building interactive web applications. I am fluent in Spanish and English and proficient in French, allowing me to thrive in diverse environments. <br />Currently seeking internship opportunities where I can contribute my technical skills and passion for innovation.
             </p>
           </div>
         </div>
 
         <div className="snap-start md:bg-[radial-gradient(ellipse_70%_80%_at_bottom_right,_var(--tw-gradient-stops))] bg-[radial-gradient(ellipse_100%_40%_at_bottom,_var(--tw-gradient-stops))] from-pink to-beige h-screen" id='services'>
-          <h2 className='pl-10  pb-10 pt-16 md:pb-0 md:pt-0 md:pl-24'>i can help you with</h2>
+          <h2 className='pl-10  pb-10 pt-16 md:pb-0 md:pt-0 md:pl-24'>my skills</h2>
           <div className='px-16 lg:pl-32 md:pl-28 md:w-4/6'>
             <h4>web development</h4>
             <p className='pb-9'>Crafting dynamic websites and web applications tailored to your needs,
