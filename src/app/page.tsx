@@ -58,7 +58,7 @@ export default function Home() {
                 <button onClick={handleClickContact} className='text-beige'>contact</button>
               </h5>
               <h5 className='md:p-4 p-2'>
-                <a href="/STEFANY NOGUERA - Resume.pdf" download className='text-beige'>resume</a>
+                <a href="./public/STEFANY NOGUERA - Resume.pdf" download className='text-beige'>resume</a>
               </h5>
             </div>
           </div>
