@@ -31,6 +31,15 @@ const config: Config = {
       xs: '15px'
     },
     extend: {
+      animation: {
+        'loop-scroll': 'loop-scroll 10s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-50%)' },
+        },
+      },
       fontFamily: {
         'leagueGothic': ['League Gothic', 'sans-serif'],
         'dmSans': ['DM Sans', 'sans-serif'],
