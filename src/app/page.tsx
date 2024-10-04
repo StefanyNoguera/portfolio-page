@@ -58,7 +58,7 @@ export default function Home() {
                 <button onClick={handleClickContact} className='text-beige'>contact</button>
               </h5>
               <h5 className='md:p-4 p-2'>
-                <a href="/STEFANY NOGUERA - RESUME.pdf" download className='text-beige'>resume</a>
+                <a href="/STEFANY NOGUERA - Resume.pdf" download className='text-beige'>resume</a>
               </h5>
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function Home() {
 
             {/* Project 1 */}
             <div className="bg-white rounded-lg ">
-              <a href="https://portfolio-page-git-main-stefanynogueras-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="relative w-[416px] h-[236px] mx-auto block">
+              <a href="https://portfolio-page-75ag.vercel.app/" target="_blank" rel="noopener noreferrer" className="relative w-[416px] h-[236px] mx-auto block">
                 <Image
                   src="/portfolio-pic.png"
                   alt="Project 1"
@@ -269,7 +269,7 @@ export default function Home() {
                 />
               </a>
               <div className="flex justify-end p-2 w-[416px] mx-auto">
-                <a href="https://portfolio-page-git-main-stefanynogueras-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-beige font-semibold mb-2 text-lg hover:underline">
+                <a href="https://portfolio-page-75ag.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-beige font-semibold mb-2 text-lg hover:underline">
                   Personal Portfolio
                 </a>
               </div>
