@@ -45,20 +45,20 @@ export default function Home() {
               />
             </div>
             <div className='flex items-center'>
-              <h5 className='p-4'>
+              <h5 className='md:p-4 p-2'>
                 <button onClick={handleClickAbout} className='text-beige'>about</button>
               </h5>
-              <h5 className='p-4'>
+              <h5 className='md:p-4 p-2'>
                 <button onClick={handleClickServices} className='text-beige'>skills</button>
               </h5>
-              <h5 className='p-4'>
+              <h5 className='md:p-4 p-2'>
                 <button onClick={handleClickWork} className='text-beige'>projects</button>
               </h5>
-              <h5 className='p-4'>
+              <h5 className='md:p-4 p-2'>
                 <button onClick={handleClickContact} className='text-beige'>contact</button>
               </h5>
-              <h5 className='p-4'>
-                <button className='text-beige'>CV</button>
+              <h5 className='md:p-4 p-2'>
+                <a href="/STEFANY NOGUERA - RESUME.pdf" download className='text-beige'>resume</a>
               </h5>
             </div>
           </div>
