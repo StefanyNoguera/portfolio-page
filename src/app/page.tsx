@@ -73,7 +73,7 @@ export default function Home() {
             <h4 className='text-beige leading-loose'>about me</h4>
             <p className='text-beige'>
             I am a dedicated Computer Science student at Goldsmiths, University of London, with a strong focus on web development and scalable solutions. Proficient in Ruby on Rails, Next.js and Python. <br /> I have developed user-centric applications through both academic projects and a Web Development Bootcamp at Le Wagon. <br />
-            My experience includes building interactive web applications. I am fluent in Spanish and English and proficient in French, allowing me to thrive in diverse environments. <br />Currently seeking internship opportunities where I can contribute my technical skills and passion for innovation.
+            My experience includes building interactive web applications. I am fluent in Spanish, English and French allowing me to thrive in diverse environments. <br />Currently seeking internship opportunities where I can contribute my technical skills and passion for innovation.
             </p>
           </div>
         </div>
@@ -259,9 +259,9 @@ export default function Home() {
 
             {/* Project 1 */}
             <div className="bg-white rounded-lg ">
-              <a href="https://project-link.com" target="_blank" rel="noopener noreferrer" className="relative w-[416px] h-[236px] mx-auto block">
+              <a href="https://portfolio-page-git-main-stefanynogueras-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="relative w-[416px] h-[236px] mx-auto block">
                 <Image
-                  src="/game-project-pic.png"
+                  src="/portfolio-pic.png"
                   alt="Project 1"
                   layout="fill"
                   objectFit="cover"
@@ -269,7 +269,7 @@ export default function Home() {
                 />
               </a>
               <div className="flex justify-end p-2 w-[416px] mx-auto">
-                <a href="hhh" target="_blank" rel="noopener noreferrer" className="text-beige font-semibold mb-2 text-lg hover:underline">
+                <a href="https://portfolio-page-git-main-stefanynogueras-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-beige font-semibold mb-2 text-lg hover:underline">
                   Personal Portfolio
                 </a>
               </div>
