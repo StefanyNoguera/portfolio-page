@@ -323,7 +323,7 @@ export default function Home() {
                 />
               </a>
               <div className="flex justify-end p-2 w-[416px] mx-auto">
-                <a href="https://the-luxury-collection-7a95ba2e8480.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="text-beige font-semibold mb-2 text-lg hover:underline">
+                <a href="https://the-luxury-collection-263bb51a359c.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="text-beige font-semibold mb-2 text-lg hover:underline">
                   The Luxury Collection
                 </a>
               </div>
