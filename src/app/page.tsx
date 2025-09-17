@@ -313,7 +313,7 @@ export default function Home() {
 
             {/* Project 4 */}
             <div className="bg-white rounded-lg ">
-              <a href="https://the-luxury-collection-7a95ba2e8480.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="relative w-[416px] h-[236px] mx-auto block">
+              <a href="https://the-luxury-collection-263bb51a359c.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="relative w-[416px] h-[236px] mx-auto block">
                 <Image
                   src="/luxury-collection-pic.png"
                   alt="The Luxury Collection"
